@@ -137,6 +137,8 @@ function attacher(retext, options) {
         } else {
             nodehun(result.aff, result.dic, construct);
         }
+
+        err = result = null;
     });
 
     /**
